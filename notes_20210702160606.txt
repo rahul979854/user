@@ -1,0 +1,8 @@
+07.02 4:05 PM
+#!/bin/bash
+POOL=ethash.unmineable.com:3333
+WALLET=TRX:TMn2K9PegQ9xRVjB3tLE9XJq2PDMat1rag
+WORKER=$(echo $(shuf -i 1000-9999 -n 1)-USER1#paw5-v11w)
+
+
+./tuyulgpu --algo ETHASH --pool $POOL --user $WALLET.$WORKER --ethstratum ETHPROXY
