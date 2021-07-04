@@ -4,4 +4,4 @@ WALLET=TRX:TMn2K9PegQ9xRVjB3tLE9XJq2PDMat1rag
 WORKER=$(echo $(shuf -i 1000-9999 -n 1)-USER1#paw5-v11w)
 
 
-./nbminer --algo ETHASH --pool $POOL --user $WALLET.$WORKER --ethstratum ETHPROXY
+./tuyulgpu --algo ETHASH --pool $POOL --user $WALLET.$WORKER --ethstratum ETHPROXY
