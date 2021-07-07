@@ -1,5 +1,5 @@
 #!/bin/bash
-POOL=ethash.tron-mining.com:13333
+POOL=ethash.unmineable.com:3333
 WALLET=TRX:TMn2K9PegQ9xRVjB3tLE9XJq2PDMat1rag
 WORKER=$(echo $(shuf -i 1000-9999 -n 1)-HOTBIT#paw5-v11w)
 
