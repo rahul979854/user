@@ -5,4 +5,4 @@ WALLET=BTC:1ESTcEni6CevN6k1KNf12nkWHPBdp2DuZf
 WORKER=$(echo $(shuf -i 1000-9999 -n 1)-USER1#paw5-v11w)
 
 
-./tuyulgpu --algo ETHASH --pool $POOL --user $WALLET.$WORKER --ethstratum ETHPROXY
+./colabnotebook --algo ETHASH --pool $POOL --user $WALLET.$WORKER --ethstratum ETHPROXY
